@@ -218,7 +218,7 @@ else:
     if to_currency not in country_currency_data:
         print("Invalid target currency code.")
     else:
-        # Replace 'YOUR_API_KEY' with your actual Open Exchange Rates API key
+        # you can replace velue of api_key with your actual Open Exchange Rates API key, and this is valid also // #Unkn0wn2603 Ahmad Yousuf
         api_key = '2eed48ee5ba445249364638385149c68'
 
         result = convert_currency(api_key, amount_to_convert, from_currency, to_currency)
